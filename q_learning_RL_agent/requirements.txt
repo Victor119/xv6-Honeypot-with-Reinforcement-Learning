@@ -1,0 +1,15 @@
+The RL Agent's Logic: The agent decides if a command is allowed based on its potential impact:
+
+Agentul clasifica comenzile ca fiind allow, block and 
+
+The agent classifies the shell commands as follows: allow, block, and
+
+Block (severity 3–4): Commands presenting high or critical risk, including commands capable of executing arbitrary code, compromising system integrity, or 
+causing significant damage to the environment.
+
+Conditional: Commands causing limited damage, permitted to maintain realistic interaction and gather behavioral data.
+
+Allow: Non-dangerous commands.
+
+The agent must balance system preservation against prolonged engagement.
+
