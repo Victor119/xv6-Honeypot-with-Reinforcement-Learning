@@ -1,5 +1,0 @@
-Linux Terminal Commands Dataset
-
-https://www.kaggle.com/datasets/cyberprince/linux-terminal-commands-dataset?resource=download
-
-
