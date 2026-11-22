@@ -1,0 +1,59 @@
+raw
+    ShellRisk-Bench
+        shellrisk_low.jsonl
+            has only label: low - 20000 rows 
+
+            created with: dataset_ShellRisk-Bench.py
+
+
+    SunnyThakur25
+        high_linux_curated_cleaned.jsonl
+            has only label: high - 58 rows 
+
+            created with: dataset_high_SunnyThakur25.py
+    
+
+        critical_linux_curated_cleaned.jsonl
+            has only label: critical - 140 rows
+
+            created with: dataset_critical_SunnyThakur25.py
+
+
+    zyw-286
+        very_low_curated_cleaned.jsonl
+            has only label: very_low - 591 rows
+
+            created with: dataset_very_low_zyw-286.py
+        
+
+        low_curated_cleaned.jsonl
+            has only label: low - 35 rows 
+
+            created with: dataset_low_zyw-286.py
+
+
+        medium_curated_cleaned.jsonl
+            has only label: medium - 669 rows
+
+            created with: dataset_medium_zyw-286.py
+        
+
+        high_curated_cleaned.jsonl
+            has only label: high - 71 rows
+
+            created with: dataset_high_zyw-286.py
+        
+
+        critical_curated_cleaned.jsonl
+            has only label: critical - 123 rows
+
+            created with: dataset_critical_zyw-286.py
+
+Din fiecare fila am extras:
+
+primele 0-80% rows ==> train 
+
+de la 80-90% rows ==> validation
+
+de la 90-100% rows ==> test
+
