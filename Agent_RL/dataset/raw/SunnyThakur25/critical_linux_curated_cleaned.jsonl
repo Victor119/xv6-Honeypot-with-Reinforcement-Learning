@@ -1,0 +1,140 @@
+{"command":"sudo -l","label":"critical"}
+{"command":"ls -la \/etc\/passwd","label":"critical"}
+{"command":"cat \/proc\/version","label":"critical"}
+{"command":"ls -la \/etc\/sudoers","label":"critical"}
+{"command":"cat \/etc\/shadow","label":"critical"}
+{"command":"uname -r","label":"critical"}
+{"command":"ls -la \/root","label":"critical"}
+{"command":"sudo --version","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/unprivileged_userns_clone","label":"critical"}
+{"command":"find \/ -type f -user root -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"grep -r 'password' \/etc 2>\/dev\/null","label":"critical"}
+{"command":"dpkg -l | grep -i sudo","label":"critical"}
+{"command":"lsmod","label":"critical"}
+{"command":"find \/etc -type f -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/etc\/sysctl.conf","label":"critical"}
+{"command":"find \/ -name 'sudoers.d' -type d 2>\/dev\/null","label":"critical"}
+{"command":"sudo -u nobody \/bin\/sh","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/kptr_restrict","label":"critical"}
+{"command":"find \/ -name 'docker.sock' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name '*.yaml' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name '*.service' -user root -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"grep -r 'NOPASSWD' \/etc\/sudoers.d 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'kubeconfig' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/randomize_va_space","label":"critical"}
+{"command":"find \/ -name '*.sh' -user root -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name '*.conf' -user root -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'containerd.sock' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/perf_event_paranoid","label":"critical"}
+{"command":"grep -r 'ALL=(ALL) NOPASSWD' \/etc\/sudoers 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'crio.conf' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/modules_disabled","label":"critical"}
+{"command":"find \/ -name 'runc' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'pod.yaml' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/yama\/ptrace_scope","label":"critical"}
+{"command":"find \/ -name 'cri-dockerd.sock' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/net\/core\/bpf_jit_enable","label":"critical"}
+{"command":"find \/ -name '*.py' -user root -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'kubectl' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'helm' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/sysrq","label":"critical"}
+{"command":"find \/ -name 'k8s.io' -type d -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'crio.sock' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'containerd-shim' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/sys\/firmware -name 'uefi*' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/cpuinfo | grep -i 'smep\\|smap'","label":"critical"}
+{"command":"find \/ -name 'k8s-service-account-token' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/kernel\/debug\/tracing\/trace_options","label":"critical"}
+{"command":"find \/ -name 'cgroup.controllers' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/speculative_store_bypass_disable","label":"critical"}
+{"command":"find \/ -name 'aws-iam-role' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/mds","label":"critical"}
+{"command":"find \/ -name 'gcp-service-account-key' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/kexec_load_disabled","label":"critical"}
+{"command":"find \/ -name 'azure-ad-credentials' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/l1tf","label":"critical"}
+{"command":"find \/ -name 'containerd-config.toml' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/ftrace_enabled","label":"critical"}
+{"command":"find \/ -name 'k8s-webhook-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/spectre_v2","label":"critical"}
+{"command":"find \/ -name 'crio-service-account' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/bpf_restricted","label":"critical"}
+{"command":"find \/ -name 'aws-ssm-agent-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/srbds","label":"critical"}
+{"command":"find \/ -name 'k8s-rbac-policy' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/usercopy_hardened","label":"critical"}
+{"command":"find \/ -name 'gcp-iam-policy' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/tsx_async_abort","label":"critical"}
+{"command":"find \/ -name 'azure-service-principal' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/seccomp","label":"critical"}
+{"command":"find \/ -name 'k8s-cluster-role-binding' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/mmio_stale_data","label":"critical"}
+{"command":"find \/ -name 'aws-ecs-task-definition' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/panic","label":"critical"}
+{"command":"find \/ -name 'gcp-cloud-function' -type f 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/retbleed","label":"critical"}
+{"command":"find \/ -name 'azure-aks-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/lockdown","label":"critical"}
+{"command":"find \/ -name 'aws-lambda-function' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/spectre_v1","label":"critical"}
+{"command":"find \/ -name 'k8s-admission-controller' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/tainted","label":"critical"}
+{"command":"find \/ -name 'gcp-cloud-run-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/cross_thread_rsb","label":"critical"}
+{"command":"find \/ -name 'azure-cloud-function' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'k8s-network-policy' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/gather_data_sampling","label":"critical"}
+{"command":"find \/ -name 'aws-eks-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'gcp-kubernetes-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/reg_file_data_sampling","label":"critical"}
+{"command":"find \/ -name 'azure-container-registry' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/kernel\/debug\/kvm\/vmcs_fields","label":"critical"}
+{"command":"find \/ -name 'k8s-istio-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/sldrs","label":"critical"}
+{"command":"find \/ -name 'aws-eks-auth-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/ai_mem_protect","label":"critical"}
+{"command":"find \/ -name 'gcp-gke-auth-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/quantum_side_channel","label":"critical"}
+{"command":"find \/ -name 'azure-arc-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/ebpf_network_filter","label":"critical"}
+{"command":"find \/ -name 'k8s-argocd-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/ai_mem_leak","label":"critical"}
+{"command":"find \/ -name 'aws-ecs-auth-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/lockdown_integrity","label":"critical"}
+{"command":"find \/ -name 'gcp-cloud-build-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/neural_side_channel","label":"critical"}
+{"command":"find \/ -name 'azure-aks-auth-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"find \/ -name 'k8s-flux-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/quantum_mem_protect","label":"critical"}
+{"command":"find \/ -name 'aws-fargate-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/ai_cache_leak","label":"critical"}
+{"command":"find \/ -name 'gcp-anthos-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/ai_tracing_enabled","label":"critical"}
+{"command":"find \/ -name 'azure-service-fabric-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/quantum_cache_leak","label":"critical"}
+{"command":"find \/ -name 'k8s-linkerd-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/neural_mem_protect","label":"critical"}
+{"command":"find \/ -name 'aws-ecs-task-role' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/ai_timing_leak","label":"critical"}
+{"command":"find \/ -name 'gcp-cloud-function-auth' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/ebpf_ai_filter","label":"critical"}
+{"command":"find \/ -name 'azure-aks-rbac-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/quantum_timing_leak","label":"critical"}
+{"command":"find \/ -name 'aws-lambda-auth-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/ai_cache_protect","label":"critical"}
+{"command":"find \/ -name 'k8s-consul-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/neural_timing_leak","label":"critical"}
+{"command":"find \/ -name 'gcp-cloud-run-auth' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/quantum_cache_protect","label":"critical"}
+{"command":"find \/ -name 'azure-function-auth-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/ai_data_leak","label":"critical"}
+{"command":"find \/ -name 'aws-eks-rbac-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/neural_cache_protect","label":"critical"}
+{"command":"find \/ -name 'gcp-gke-rbac-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/quantum_data_leak","label":"critical"}
+{"command":"find \/ -name 'k8s-traefik-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/ebpf_quantum_filter","label":"critical"}
+{"command":"find \/ -name 'azure-arc-auth-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/sys\/devices\/system\/cpu\/vulnerabilities\/ai_mem_corruption","label":"critical"}
+{"command":"find \/ -name 'aws-fargate-auth-config' -perm -o+w 2>\/dev\/null","label":"critical"}
+{"command":"cat \/proc\/sys\/kernel\/neural_tracing_enabled","label":"critical"}

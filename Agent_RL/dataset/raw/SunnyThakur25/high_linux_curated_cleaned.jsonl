@@ -1,0 +1,58 @@
+{"command":"find \/ -perm -u=s -type f 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/crontab","label":"high"}
+{"command":"getcap -r \/ 2>\/dev\/null","label":"high"}
+{"command":"find \/ -writable -type f 2>\/dev\/null","label":"high"}
+{"command":"find \/ -perm -4000 2>\/dev\/null","label":"high"}
+{"command":"find \/home -name .ssh -type d 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/systemd\/system\/*.service","label":"high"}
+{"command":"find \/ -name '*.conf' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"find \/ -perm -g=s -type f 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/group","label":"high"}
+{"command":"find \/ -name '*.sh' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"systemctl list-units --type=service","label":"high"}
+{"command":"find \/ -name 'id_rsa' -type f 2>\/dev\/null","label":"high"}
+{"command":"find \/ -name '*.service' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/fstab","label":"high"}
+{"command":"find \/ -perm -o+x -type d 2>\/dev\/null","label":"high"}
+{"command":"find \/ -name 'config' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/ld.so.conf","label":"high"}
+{"command":"find \/ -name '*.py' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"find \/ -name 'authorized_keys' -type f 2>\/dev\/null","label":"high"}
+{"command":"cat \/proc\/self\/status | grep CapEff","label":"high"}
+{"command":"find \/ -name '*.bak' -type f 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/exports","label":"high"}
+{"command":"find \/ -name '*.log' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/cron.d\/*","label":"high"}
+{"command":"find \/ -name '*.db' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/at.allow","label":"high"}
+{"command":"find \/ -name '*.key' -type f 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/security\/limits.conf","label":"high"}
+{"command":"find \/ -name '*.cron' -type f 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/pam.d\/*","label":"high"}
+{"command":"find \/ -name '*.so' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"find \/ -perm -u=s -type f -exec strings {} \\; | grep -i 'execve'","label":"high"}
+{"command":"capsh --print","label":"high"}
+{"command":"cat \/proc\/sys\/fs\/protected_symlinks","label":"high"}
+{"command":"strace -p $(pidof sshd) 2>&1 | grep -i 'open('","label":"high"}
+{"command":"cat \/etc\/cron.allow","label":"high"}
+{"command":"find \/ -name '*.rb' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"find \/ -name '*.pl' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/etc\/security\/pwquality.conf","label":"high"}
+{"command":"find \/ -name '*.js' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/proc\/sys\/kernel\/core_pattern","label":"high"}
+{"command":"find \/ -name '*.php' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/proc\/sys\/vm\/swappiness","label":"high"}
+{"command":"find \/ -name '*.lua' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"find \/ -name '*.go' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/proc\/sys\/kernel\/dmesg_restrict","label":"high"}
+{"command":"find \/ -name '*.r' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"find \/ -name '*.cpp' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/proc\/sys\/fs\/protected_hardlinks","label":"high"}
+{"command":"find \/ -name '*.rs' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/proc\/sys\/kernel\/panic_on_oops","label":"high"}
+{"command":"find \/ -name '*.ts' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/proc\/sys\/kernel\/printk","label":"high"}
+{"command":"find \/ -name '*.swift' -perm -o+w 2>\/dev\/null","label":"high"}
+{"command":"cat \/proc\/sys\/kernel\/random\/boot_id","label":"high"}
+{"command":"cat \/proc\/sys\/kernel\/random\/entropy_avail","label":"high"}
+{"command":"cat \/proc\/sys\/kernel\/watchdog","label":"high"}
