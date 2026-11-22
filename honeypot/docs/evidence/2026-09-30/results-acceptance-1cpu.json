@@ -1,0 +1,31 @@
+{
+  "passed": [
+    "main:basic",
+    "main:stress",
+    "main:replies",
+    "main:timeout",
+    "main:busy",
+    "main:interrupted",
+    "main:agentfork",
+    "exit:exit",
+    "exit:absent",
+    "exec:exec",
+    "exec:absent",
+    "readonly:readonly",
+    "readonly:absent"
+  ],
+  "cpus": 1,
+  "status": "passed",
+  "basic_only": false,
+  "upstream": false,
+  "started_at": "2026-09-30T23:41:05.131930+00:00",
+  "qemu": "QEMU emulator version 10.1.94 (v10.2.0-rc4-12104-gb2a6201393)",
+  "images": {
+    "kernel": "96767c40884b3a3b246125fda8078fcccec5ee328f926640ad2547cceed00629",
+    "xv6.img": "721c4441691c86c0776579a5a1370bb89178fe3a681323a4a941d61b8d40bb13",
+    "fs.img": "98c13b6731f2541f84838761fd426332a2e8e0c9c198bf986092986f622780b4"
+  },
+  "images_unchanged": true,
+  "finished_at": "2026-09-30T23:41:16.019988+00:00",
+  "elapsed_seconds": 10.888
+}
