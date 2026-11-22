@@ -9,6 +9,7 @@ struct spinlock;
 struct sleeplock;
 struct stat;
 struct superblock;
+struct hp_event;
 
 // bio.c
 void            binit(void);
@@ -57,6 +58,16 @@ int             writei(struct inode*, char*, uint, uint);
 void            ideinit(void);
 void            ideintr(void);
 void            iderw(struct buf*);
+
+// honeypot.c
+void            hpinit(void);
+int             hp_start_agent(void);
+void            hp_detach(struct proc*);
+void            hp_exec(struct proc*, char*);
+int             hp_register_agent(void);
+int             hp_agent_next(void);
+int             hp_agent_decide(void);
+int             hp_submit_request(int, int, int, int, int);
 
 // ioapic.c
 void            ioapicenable(int irq, int cpu);
@@ -185,6 +196,8 @@ void            switchuvm(struct proc*);
 void            switchkvm(void);
 int             copyout(pde_t*, uint, void*, uint);
 void            clearpteu(pde_t *pgdir, char *uva);
+int             maphpages(pde_t*, char*, char*);
+void            unmaphpages(pde_t*);
 
 // number of elements in fixed-size array
 #define NELEM(x) (sizeof(x)/sizeof((x)[0]))

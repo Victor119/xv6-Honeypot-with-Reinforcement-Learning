@@ -103,6 +103,11 @@ extern int sys_unlink(void);
 extern int sys_wait(void);
 extern int sys_write(void);
 extern int sys_uptime(void);
+extern int sys_hp_register(void);
+extern int sys_hp_next(void);
+extern int sys_hp_decide(void);
+extern int sys_hp_trigger(void);
+extern int sys_hp_start(void);
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -126,6 +131,11 @@ static int (*syscalls[])(void) = {
 [SYS_link]    sys_link,
 [SYS_mkdir]   sys_mkdir,
 [SYS_close]   sys_close,
+[SYS_hp_register] sys_hp_register,
+[SYS_hp_next]     sys_hp_next,
+[SYS_hp_decide]   sys_hp_decide,
+[SYS_hp_trigger]  sys_hp_trigger,
+[SYS_hp_start]    sys_hp_start,
 };
 
 void

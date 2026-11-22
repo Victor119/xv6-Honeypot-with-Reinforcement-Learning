@@ -27,6 +27,7 @@ main(void)
   consoleinit();   // console hardware
   uartinit();      // serial port
   pinit();         // process table
+  hpinit();        // honeypot control channel
   tvinit();        // trap vectors
   binit();         // buffer cache
   fileinit();      // file table

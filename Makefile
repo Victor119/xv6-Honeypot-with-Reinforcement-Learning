@@ -4,6 +4,8 @@ OBJS = \
 	exec.o\
 	file.o\
 	fs.o\
+	honeypot.o\
+	syshoneypot.o\
 	ide.o\
 	ioapic.o\
 	kalloc.o\
@@ -77,8 +79,21 @@ LD = $(TOOLPREFIX)ld
 OBJCOPY = $(TOOLPREFIX)objcopy
 OBJDUMP = $(TOOLPREFIX)objdump
 CFLAGS = -fno-pic -static -fno-builtin -fno-strict-aliasing -O2 -Wall -MD -ggdb -m32 -Werror -fno-omit-frame-pointer
+# xv6 neither enables SIMD nor saves floating-point/vector state on switches.
+# Host compiler defaults must not introduce those instructions into the guest.
+CFLAGS += -mno-sse -mno-sse2 -mno-mmx -msoft-float
 CFLAGS += $(shell $(CC) -fno-stack-protector -E -x c /dev/null >/dev/null 2>&1 && echo -fno-stack-protector)
+ifeq ($(HP_TESTING),1)
+CFLAGS += -DHP_TESTING
+endif
 ASFLAGS = -m32 -gdwarf-2 -Wa,-divide
+# Some assemblers emit an allocated .note.gnu.property by default. xv6 does
+# not use these notes in its zero-linked user programs; the orphan section also
+# expands the raw initcode payload to the host linker's default text address.
+# Probe the option so older cross toolchains remain usable.
+NO_PROPERTY_NOTE := $(shell $(CC) -m32 -Wa,-mx86-used-note=no -x assembler -c /dev/null -o /dev/null >/dev/null 2>&1 && echo -Wa,-mx86-used-note=no)
+CFLAGS += $(NO_PROPERTY_NOTE)
+ASFLAGS += $(NO_PROPERTY_NOTE)
 # FreeBSD ld wants ``elf_i386_fbsd''
 LDFLAGS += -m $(shell $(LD) -V | grep elf_i386 2>/dev/null | head -n 1)
 
@@ -170,6 +185,9 @@ UPROGS=\
 	_echo\
 	_forktest\
 	_grep\
+	_hpagent\
+	_hptrigger\
+	_hptest\
 	_init\
 	_kill\
 	_ln\

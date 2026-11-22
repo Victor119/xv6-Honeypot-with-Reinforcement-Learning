@@ -15,6 +15,7 @@ struct {
 static struct proc *initproc;
 
 int nextpid = 1;
+static int hp_started;
 extern void forkret(void);
 extern void trapret(void);
 
@@ -88,6 +89,8 @@ allocproc(void)
 found:
   p->state = EMBRYO;
   p->pid = nextpid++;
+  p->hp_bootstrap = 0;
+  p->hp_authorized = 0;
 
   release(&ptable.lock);
 
@@ -177,8 +180,8 @@ growproc(int n)
 // Create a new process copying p as the parent.
 // Sets up stack to return as if from system call.
 // Caller must set state of returned proc to RUNNABLE.
-int
-fork(void)
+static int
+fork1(int hp_bootstrap)
 {
   int i, pid;
   struct proc *np;
@@ -198,6 +201,8 @@ fork(void)
   }
   np->sz = curproc->sz;
   np->parent = curproc;
+  // Agent authority is never inherited through an ordinary fork.
+  np->hp_bootstrap = hp_bootstrap;
   *np->tf = *curproc->tf;
 
   // Clear %eax so that fork returns 0 in the child.
@@ -221,6 +226,23 @@ fork(void)
   return pid;
 }
 
+int
+fork(void)
+{
+  return fork1(0);
+}
+
+// Only the original init process may create the boot agent, once per boot.
+// The child has no agent authority until exec of /hpagent succeeds.
+int
+hp_start_agent(void)
+{
+  if(myproc() != initproc || hp_started)
+    return -1;
+  hp_started = 1;
+  return fork1(1);
+}
+
 // Exit the current process.  Does not return.
 // An exited process remains in the zombie state
 // until its parent calls wait() to find out it exited.
@@ -233,6 +255,10 @@ exit(void)
 
   if(curproc == initproc)
     panic("init exiting");
+
+  // Revoke before the process becomes a zombie or its slot can be reused.
+  // This must run before taking ptable.lock (hp uses sleep/wakeup).
+  hp_detach(curproc);
 
   // Close all open files.
   for(fd = 0; fd < NOFILE; fd++){

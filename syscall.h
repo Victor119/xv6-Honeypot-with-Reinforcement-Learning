@@ -20,3 +20,9 @@
 #define SYS_link   19
 #define SYS_mkdir  20
 #define SYS_close  21
+// Honeypot control-channel system calls (Milestone 1).
+#define SYS_hp_register 22
+#define SYS_hp_next     23
+#define SYS_hp_decide   24
+#define SYS_hp_trigger  25
+#define SYS_hp_start    26

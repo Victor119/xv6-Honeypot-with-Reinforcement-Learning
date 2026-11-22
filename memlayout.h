@@ -9,7 +9,8 @@
 #define KERNLINK (KERNBASE+EXTMEM)  // Address where kernel is linked
 
 #define V2P(a) (((uint) (a)) - KERNBASE)
-#define P2V(a) ((void *)(((char *) (a)) + KERNBASE))
+// Translate numeric machine addresses, not offsets within a C object.
+#define P2V(a) ((void *)(((uint) (a)) + KERNBASE))
 
 #define V2P_WO(x) ((x) - KERNBASE)    // same as V2P, but without casts
 #define P2V_WO(x) ((x) + KERNBASE)    // same as P2V, but without casts
